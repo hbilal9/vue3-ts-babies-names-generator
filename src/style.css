@@ -1,0 +1,107 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.container h1 {
+  font-size: 4rem;
+  padding: 1rem;
+}
+
+.options-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  width: 90%;
+  border-radius: 4rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.option-container {
+  margin-bottom: 1.5rem;
+}
+
+.option-button {
+  background-color: white;
+  outline: 0.15rem solid orange;
+  color: #242424;
+  border: none;
+  width: 10rem;
+  font: 1rem;
+  padding: 0.75rem;
+  font-weight: 250;
+  cursor: pointer;
+}
+
+.option-button:first-of-type {
+  border-radius: 25px 0 0 25px;
+}
+
+.option-button:last-of-type {
+  border-radius: 0 25px 25px 0;
+}
+
+.active {
+  background-color: orange;
+  color: #fff
+}
+
+.generate-button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  width: 15rem;
+  font: 1rem;
+  border-radius: 25px;
+  padding: 0.75rem;
+  font-weight: 250;
+  cursor: pointer;
+}
+
+.generate-button:hover {
+  background-color: rgb(238, 155, 1);
+}
+
+.card-container {
+  margin-top: 2rem;
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card {
+  width: 20%;
+  padding: 1rem;
+  background-color: orange;
+  color: #fff;
+  /* font-weight: 400; */
+  font-size: 1.2rem;
+  border-radius: 25px;
+  margin-right: 0.5rem !important;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 1rem !important;
+}
